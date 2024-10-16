@@ -1,0 +1,26 @@
+.contenedorPadre{
+    width: 100%;
+}
+
+.hijoIzquierda{
+    display: inline-block;
+    width: 58%;
+    gap: 2%;
+    background-color: darkorchid;
+}
+
+.hijoDerecha{
+    display: inline-block;
+    width: 38%;
+    gap: 2%;
+    background-color: lightskyblue;
+}
+
+.btnRutina{
+    color:white;
+    background-color: mediumblue;
+}
+
+.contenedorImagen{
+    max-width: auto;
+}

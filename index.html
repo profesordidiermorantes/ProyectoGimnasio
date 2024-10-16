@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./assets/css/estilos.css">
+    </head>
+    <body onload="asignarEventos()">
+        <div class="contenedorPadre">
+            <div class="hijoIzquierda">
+                <figure class="contenedorImagen">
+                    <img src="./assets/img/pesas.jpg" alt="pesas">
+                </figure>
+            </div>
+            <div class="hijoDerecha">
+                <h2>Creador de rutinas</h2>
+                <p>Ejercicios a probar: sentadillas, bancos, peso muerto, prensas</p>
+                <form>
+                    <input type="text"  id="txtSemanas" size="40" placeholder="¿cuántas semanas quieres hacer ejercicio?"><br>
+                    <input type="text"  id="txtDias" size="40" placeholder="¿Cuántos días a la semana puedes hacer ejercicio?"><br>
+                    <input type="button" id="btnMostrarRutina" value="Muéstrame mi nueva Rutina" class="btnRutina">
+                </form>
+                <button id="btnGenerador">Invocar Generador</button>
+            </div>
+
+        </div>
+        <a href="./referencias.html">Ver Referencias</a>
+        <script src="./assets/js/logica.js"></script>
+    </body>
+</html>
